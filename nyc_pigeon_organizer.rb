@@ -11,7 +11,7 @@ def nyc_pigeon_organizer(data)
       end
     end
   end
- pigeons_first
+ return pigeons_first
 end
 
 #to_str vs to_s "to_s returns a string representation of an object

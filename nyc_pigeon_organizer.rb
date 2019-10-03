@@ -14,4 +14,5 @@ def nyc_pigeon_organizer(data)
  pigeons_first
 end
 
-#to_str is no go cus 
+#to_str vs to_s "to_s returns a string representation of an object
+#to_str is actually stating that the object behaves like a string" 

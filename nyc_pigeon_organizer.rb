@@ -3,8 +3,7 @@ def nyc_pigeon_organizer(data)
   data.each do |general_facts, branched_facts|
     branched_facts.each do |detailed_fact, names_array|
       names_array.each do |specific_name|
-        pigeons_first[:specific_name] = {:color =>{}, :gender => {}, :lives =>{} 
-        }
+        if pigeons_first[specific_name] = nil?
         
     end
   end

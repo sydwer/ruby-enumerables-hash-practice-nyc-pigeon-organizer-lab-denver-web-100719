@@ -5,7 +5,7 @@ def nyc_pigeon_organizer(data)
       names_array.each do |specific_name|
         if pigeons_first[specific_name] = nil?
           pigeons_first[specific_name] = {}
-          pigeons_first[specific_name] =
+          pigeons_first[specific_name] = [general_facts][]
         else
           
         

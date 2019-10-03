@@ -7,8 +7,8 @@ def nyc_pigeon_organizer(data)
           pigeons_first[specific_name] = {}
           pigeons_first[specific_name][general_facts]=[]
         else
-          
-        
+          pigeons_first[specific_name][general_facts]=[]
+       end 
     end
   end
 end

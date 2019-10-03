@@ -8,7 +8,7 @@ def nyc_pigeon_organizer(data)
     if pigeons_first[specific_name][general_facts] == nil
           pigeons_first[specific_name][general_facts] = []
         end
-        pigeons_first[specific_name][general_facts].push(stats.to_s)
+        pigeons_first[specific_name][general_facts].push(detailed_fact.to_s)
       end
     end 
   end

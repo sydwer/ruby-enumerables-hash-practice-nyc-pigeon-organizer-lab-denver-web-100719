@@ -5,7 +5,12 @@ def nyc_pigeon_organizer(data)
       names_array.each do |specific_name|
         pigeons_first[specific_name] ||= {}
     end
-    
+    if pigeons_first[specific_name][general_facts] == nil
+          pigeons_first[specific_name][general_facts] = []
+        end
+        pigeons_first[specific_name][general_facts].push(stats.to_s)
+      end
+    end 
   end
-end
+  pigeon_list
 end

@@ -13,3 +13,5 @@ def nyc_pigeon_organizer(data)
   end
  pigeons_first
 end
+
+#to_str is no go cus 

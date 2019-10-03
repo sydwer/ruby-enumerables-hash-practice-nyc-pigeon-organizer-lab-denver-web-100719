@@ -10,7 +10,6 @@ def nyc_pigeon_organizer(data)
         end
         pigeons_first[specific_name][general_facts].push(detailed_fact)
       end
-    end 
   end
  pigeons_first
 end
